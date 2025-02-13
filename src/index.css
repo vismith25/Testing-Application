@@ -1,0 +1,12 @@
+.font {
+  font-family: "Poppins", serif;
+}
+
+.container1 {
+  display: flex;
+}
+
+.container2 {
+  flex-grow: 5;
+  margin-left: 20px;
+}

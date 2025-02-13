@@ -1,0 +1,100 @@
+.card {
+  background: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.bar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+}
+
+.Current {
+  background-color: #e0eaff;
+  color: #505050;
+}
+
+.Completed {
+  background-color: #f9f9f9;
+  color: #878787;
+}
+
+.Current:hover {
+  background-color: #c6d8ff;
+}
+
+.Completed:hover {
+  background-color: #c6d8ff;
+  color: #505050;
+}
+
+.search {
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.search:focus {
+  border-color: #c6d8ff;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.filter {
+  background-color: #e0eaff;
+  color: #878787;
+}
+
+.add {
+  background-color: #e0eaff;
+  color: #878787;
+}
+
+.filter:hover {
+  background-color: #c6d8ff;
+  color: #505050;
+}
+
+.add:hover {
+  background-color: #c6d8ff;
+  color: #505050;
+}
+
+.table1 {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table1 th,
+.table1 td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  color: #878787;
+}
+
+.table1 th {
+  background-color: #f1f1f1;
+  color: #505050;
+}
+
+.warning {
+  color: #f64848;
+  font-weight: bold;
+  margin-left: 5px;
+}

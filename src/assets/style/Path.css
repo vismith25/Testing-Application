@@ -1,0 +1,25 @@
+.path {
+  align-items: center;
+  font-size: 16px;
+  color: #878787;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.name1 {
+  margin-left: 5px;
+  cursor: pointer;
+}
+.name2 {
+  margin: 0 5px;
+  color: #878787;
+}
+
+.name3 {
+  font-weight: bold;
+  color: #505050;
+  margin: 3px;
+}

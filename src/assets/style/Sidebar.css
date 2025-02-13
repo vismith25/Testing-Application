@@ -1,0 +1,48 @@
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #f8f9fa;
+  padding: 20px;
+  box-shadow: 2px 0 0px rgba(0, 0, 0, 0.1);
+}
+
+.projectButton {
+  background-color: #e0eaff;
+  color: #505050;
+  font-size: 15px;
+  border: none;
+  padding: 15px 90px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.projectButton:hover {
+  background-color: #c6d8ff;
+}
+
+.sidebarMenu {
+  list-style: none;
+  padding: 0;
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 15px;
+  margin: 3px;
+  color: #878787;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.menuIcon {
+  font-size: 1.2rem;
+}
+
+.menuItem:hover,
+.menuItem.active {
+  background-color: #e0eaff;
+  color: #505050;
+  border-radius: 5px;
+}
