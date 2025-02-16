@@ -6,7 +6,7 @@ import Miletones from "./component/Milestones";
 
 const App = () => {
   return (
-    <div className="font">
+    <div>
       <Header />
       <div className="container1">
         <Sidebar />
